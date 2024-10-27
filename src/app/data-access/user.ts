@@ -8,7 +8,7 @@ type User = {
   name: "John Doe",
 } as User;
 
-export async function getUser(userId: string) {
+export async function getUser() {
   return global.user as User;
 }
 
